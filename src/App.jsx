@@ -34,6 +34,7 @@ function App() {
   return (
     <div className="App">
       <h1>Search HTTP Code Dog Image</h1>
+      <h2>enter no. within range of 100 - 600</h2>
       <input required placeholder="Enter the HTTP code" onChange={(event) => setNumber(event.target.value)}></input>
       <button onClick={fetchImage}>Search</button>
       <div>
