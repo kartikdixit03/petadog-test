@@ -33,10 +33,28 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Search HTTP Code Dog Image</h1>
-      <h2>enter no. within range of 100 - 600</h2>
-      <input required placeholder="Enter the HTTP code" onChange={(event) => setNumber(event.target.value)}></input>
-      <button onClick={fetchImage}>Search</button>
+     <div className="container">
+        <header className="header"> 
+        <p className='ctxt'> Get Your Dog </p>
+      
+
+      
+      
+
+
+
+        </header>  
+        <a href='https://twitter.com/dog_feelings' target='_blank' >
+  <button className="button-3" role="button">Follow US</button>
+     </a>
+        <p>Dogs for every HyperText Transfer Protocol response status code.</p>
+
+      
+        <div className='searchBox'>
+       
+          
+<input className='input' required placeholder="Enter the HTTP code" onChange={(event) => setNumber(event.target.value)}></input>
+      <button className='search' onClick={fetchImage}>Search</button>
       <div>
         {
           dogImage.length > 0 &&
@@ -44,9 +62,16 @@ function App() {
             <img src={dogImage} className="logo" alt="dog image" />
           </a>
         }
-      </div>
+      
+
+          </div>
+          
+        </div>
+      
+    </div>
     </div>
   )
 }
 
 export default App
+
