@@ -67,9 +67,18 @@ function App() {
           </div>
           
         </div>
-      
+        <div className="main-footer">
+    
+          <p className="col-sm">
+            &copy;{new Date().getFullYear()} PET A DOG | All rights reserved |
+            Terms Of Service | Privacy
+          </p>
+        </div>
+    
     </div>
     </div>
+    
+    
   )
 }
 

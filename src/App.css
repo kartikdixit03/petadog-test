@@ -37,7 +37,13 @@
       
 }
 .ctxt:hover {
-  color: pink;
+  color:#FF1493;
+}
+.col-sm{ 
+  text :bold;
+}
+.col-sm:hover{
+  color:#FF1493;
 }
 .input{
   height: 30px;
@@ -56,7 +62,7 @@ input, select, textarea{
 }
 .search{
   border-radius: 50px;
-  background-color: pink;
+  background-color:#FF1493;
 }
 
 
