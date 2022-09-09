@@ -45,7 +45,14 @@
   border-radius: 35px ;
   margin-left: 30px ;
  background-color: rgb(245,245,245);
- color: gery
+ color: gery;
+ padding-right: 250px;
+ margin: 22px  ;
+ margin-bottom: 0px;
+ margin-top: 10px;
+}
+input, select, textarea{
+  color: #000;
 }
 .search{
   border-radius: 50px;
